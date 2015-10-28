@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Actual CSS*/
+ul{
+  list-style: none;
+}
+
+li{
+  display: flex;
+  margin-top: 0.2em;
+  justify-content:space-between;
+}
+
+p{
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+input{
+  margin-right: 1em;
+}
+
+#app{
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.btn{
+  background-color: #9FDAFC;
+  margin: 0 0 0 0.5em;
+  border: 0;
+  padding: 0.2em 0.5em;
+  border-radius: 0.2em;
+}
+
+.btn-warn{
+  background-color: #F8C17A;
+}
+
+.btn-main{
+  font-size: 1.5em;
+  background-color: #564999;
+  color: white;
+}
+.btn-error{
+  background-color: tomato;
+}
+
+.btn-center{
+  display: block;
+  margin: 1em auto;
+}
